@@ -1,0 +1,31 @@
+name: llms
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - python-dotenv
+  - requests
+  - numpy
+  - pandas
+  - scipy
+  - pytorch
+  - jupyterlab
+  - ipywidgets
+  - jupyter-dash
+  - matplotlib
+  - scikit-learn
+  - chromadb
+  - openai
+  - google-generativeai
+  - pip:
+    - plotly
+    - streamlit
+    - ollama
+    - langchain
+    - langchain-core
+    - langchain-text-splitters
+    - langchain-openai
+    - langchain-chroma
+    - langchain-community
