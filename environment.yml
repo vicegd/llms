@@ -29,3 +29,5 @@ dependencies:
     - langchain-openai
     - langchain-chroma
     - langchain-community
+    - pymupdf
+    - fastembed
